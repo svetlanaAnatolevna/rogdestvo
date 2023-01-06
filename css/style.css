@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'f1';
+    src: url(../fonts/a_citynovatitulstars.ttf)
+}
+
+@font-face {
+    font-family: 'f2';
+    src: url(../fonts/beer-money12.ttf)
+}
+
+@font-face {
+    font-family: 'f3';
+    src: url(../fonts/krystal.ttf)
+}
+
+@font-face {
+    font-family: 'f4';
+    src: url(../fonts/madelikesslab.ttf)
+}
+
+@font-face {
+    font-family: 'f5';
+    src: url(../fonts/mousie.ttf)
+}
+
+@font-face {
+    font-family: 'f6';
+    src: url(../fonts/nexa-script-bold.ttf)
+}
+
+@font-face {
+    font-family: 'f7';
+    src: url(../fonts/nexa-script-bold.ttf)
+}
+
+@font-face {
+    font-family: 'f8';
+    src: url(../fonts/smudgers.ttf)
+}
+
+body {
+    background: #123;
+}
+
+#container {
+    width: 350px;
+    border: 1px solid white;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#container div {
+    border: 1px dotted #fff;
+    overflow: hidden;
+}
+
+#container div img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 35px #fff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+#container div img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+}
+
+#container div {
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    font-family: f1;
+    font-weight: 900;
+}
